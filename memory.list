@@ -1,0 +1,15 @@
+@0000 0A09 //Load 8 in to ACC
+@0001 0D03 //Multiply 8 * 5 = 40
+@0002 0B04 //Divide 40/2 = 20
+@0003 0C01 //Add 20 + 7 = 27
+@0004 0B02 //Sub 27 - 2 = 25
+@0005 0A05 //Xor 25  ^  8 = 17
+@0006 0E08 //Store 17 to @000e
+@0007 0907 //JumpZ 9
+@0008 0A09 //Load 8 in to ACC
+@0009 0906 //JUMP 6 = branch to self 
+@000a 0008 //A data = 8
+@000b 0002 //B data = 2
+@000c 0007 //C data = 7
+@000d 0005 //D data = 5
+@000e 0000 //store goes here
